@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".OptionActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a Quiz"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Previous Records"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="632dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
