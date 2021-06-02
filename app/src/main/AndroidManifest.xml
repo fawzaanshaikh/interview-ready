@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InterviewReady">
-        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".PreviousRecordsActivity"></activity>
+        <activity android:name=".AptiStudyActivity" />
+        <activity android:name=".DsStudyActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".QuizActivity" />
         <activity android:name=".ChooseSubjectActivity" />
         <activity android:name=".OptionActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LogInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
