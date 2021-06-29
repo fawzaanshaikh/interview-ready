@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InterviewReady">
-        <activity android:name=".PreviousRecordsActivity"></activity>
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".PreviousRecordsActivity" />
         <activity android:name=".AptiStudyActivity" />
         <activity android:name=".DsStudyActivity" />
         <activity android:name=".RegisterActivity" />
